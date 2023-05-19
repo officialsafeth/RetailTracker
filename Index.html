@@ -44,7 +44,67 @@
 
     <label for="skuSearchInput">Enter SKU:</label>
 
+    <input type="text" id="skuSearchInput" required><!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>Retail Product Tracker</title>
+
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+
+  <h1>Retail Product Tracker</h1>
+
+  <h2>Add Product</h2>
+
+  <form id="addProductForm">
+
+    <label for="upcInput">UPC:</label>
+
+    <input type="text" id="upcInput" required><br>
+
+    <label for="skuInput">SKU:</label>
+
+    <input type="text" id="skuInput" required><br>
+
+    <label for="nameInput">Name:</label>
+
+    <input type="text" id="nameInput" required><br>
+
+    <label for="priceInput">Price:</label>
+
+    <input type="number" id="priceInput" required><br>
+
+    <button type="submit">Add Product</button>
+
+  </form>
+
+  <h2>Find Product</h2>
+
+  <form id="findProductForm">
+
+    <label for="skuSearchInput">Enter SKU:</label>
+
     <input type="text" id="skuSearchInput" required>
+
+    <button type="submit">Search</button>
+
+  </form>
+
+  <h2>Product Information</h2>
+
+  <div id="productInfo"></div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
 
     <button type="submit">Search</button>
 
